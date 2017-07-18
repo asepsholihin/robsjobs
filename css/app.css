@@ -17,6 +17,10 @@ body {
    margin-right: auto;
    max-width: initial;
 }
+.full-width-nomargin {
+    margin-left: 0;
+   margin-right: 0;
+}
 
 header {
     position: relative;
@@ -111,7 +115,7 @@ header .menu .button {
 }
 
 .section {
-    margin-top: 16em;
+    margin-top: 8em;
 }
 
 .promotion {
