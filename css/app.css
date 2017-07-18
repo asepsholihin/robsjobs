@@ -18,8 +18,8 @@ body {
    max-width: initial;
 }
 .full-width-nomargin {
-    margin-left: 0;
-   margin-right: 0;
+    margin-left: 0 !important;
+   margin-right: 0 !important;
 }
 
 header {
@@ -58,7 +58,7 @@ header .menu .button {
 }
 
 .btn-download {
-    min-width: 130px;
+    min-width: 0px;
 }
 
 .head-content {
@@ -80,15 +80,13 @@ header .menu .button {
     max-height: 300px;
 }
 
-
-
 .content-separator {
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: -25px;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -115,7 +113,7 @@ header .menu .button {
 }
 
 .section {
-    margin-top: 8em;
+    margin-top: 9.8em;
 }
 
 .promotion {
@@ -260,8 +258,10 @@ header .menu .button {
     }
     .employee, .employer {
         padding: 1em 5em;
-    }
-       
+    }     
+    .btn-download {
+        min-width: 130px;
+    }  
 }
 
 @media (min-width: 992px) and (max-width: 1169px) {
@@ -295,6 +295,9 @@ header .menu .button {
     .employee, .employer {
         padding: 1em 5em;
     }
+    .btn-download {
+        min-width: 130px;
+    }
 }
 
 @media(min-width: 1170px) and (max-width: 1920px) {
@@ -327,6 +330,9 @@ header .menu .button {
     }
     .employee, .employer {
         padding: 1em 5em;
+    }
+    .btn-download {
+        min-width: 130px;
     }
 }
 
