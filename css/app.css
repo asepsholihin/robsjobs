@@ -47,11 +47,12 @@ header .menu .button {
     border: 2px solid #FFF;
     font-size: 1em;
     color: #fff;
-    margin-left: 5px;
-    margin-right: 5px;    
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 }
+
 .btn-download {
     min-width: 130px;
 }
@@ -63,7 +64,7 @@ header .menu .button {
     margin: auto;
 }
 .head-content h2 {
-    font-size: 2.8em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1;
@@ -75,6 +76,8 @@ header .menu .button {
     max-height: 300px;
 }
 
+
+
 .content-separator {
     position: absolute;
     margin: auto;
@@ -82,14 +85,15 @@ header .menu .button {
     right: 0;
     bottom: 0;
     top: 0;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     background: #fff;
     text-align: center;
     border-radius: 100%;
     z-index: 9;
 }
+
 
 .green-light {
     background: #2cd2a6 !important;
@@ -127,14 +131,14 @@ header .menu .button {
 }
 .employee {
     background: #f2f2f2;
-    padding: 1em 5em;
+    padding: 1em 1em;
     min-height: 570px;
 }
 
 .employer {
     background: #434343;
     color: #fff;
-    padding: 1em 5em;
+    padding: 1em 1em;
     min-height: 570px;
 }
 .icons-media {
@@ -154,6 +158,9 @@ header .menu .button {
     min-height: 90px;
 }
 
+.promotion {
+    margin-top: 5em;
+}
 .promotion h2 {
     font-family: 'Roboto', sans-serif;
 }
@@ -186,6 +193,22 @@ header .menu .button {
     .section {
         margin-top: 10em;
     }
+    .content-separator {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        background: #fff;
+        text-align: center;
+        border-radius: 100%;
+        z-index: 9;
+    }
+    
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -201,7 +224,6 @@ header .menu .button {
         margin: auto;
         background: #2cd2a6;
     }
-    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -227,6 +249,13 @@ header .menu .button {
         width: 140px;
         min-height: 170px;
         color: #fff;
+    }
+    
+    .head-content h2 {
+        font-size: 1em;
+    }
+    .employee, .employer {
+        padding: 1em 5em;
     }
        
 }
@@ -255,6 +284,13 @@ header .menu .button {
         min-height: 170px;
         color: #fff;
     }
+    
+    .head-content h2 {
+        font-size: 1em;
+    }
+    .employee, .employer {
+        padding: 1em 5em;
+    }
 }
 
 @media(min-width: 1170px) and (max-width: 1920px) {
@@ -282,5 +318,11 @@ header .menu .button {
         color: #fff;
     }
     
+    .head-content h2 {
+        font-size: 2.8em;
+    }
+    .employee, .employer {
+        padding: 1em 5em;
+    }
 }
 
